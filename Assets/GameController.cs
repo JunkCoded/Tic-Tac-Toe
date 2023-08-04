@@ -42,7 +42,6 @@ public class GameController : MonoBehaviour
         if (stepsLeft == 0) {
             statusText.text = "Draw!";
             gameEnd = true;
-            return;
         } else {
             statusText.text = (zeroStep ? "O" : "X") + "'s turn";
         }
